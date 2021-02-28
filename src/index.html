@@ -7,51 +7,76 @@
     <title>FAQ Page | Pure CSS</title>
 </head>
 <body>
-    <div class="o-accordion">
-        <h3 class="m-dropdown__title">How can we help you?</h3>
-        <form action="" class="m-dropdown__search">
-            <img src="./assets/icons/search.svg" alt="" class="m-dropdown__searchIcon">
-            <input type="text" placeholder="Describe your issue" class="m-dropdown__searchInput">
-        </form>
-        <ul class="m-dropdown__container">
-            <li class="m-dropdown__question">
-                <input type="checkbox" id="question1">
-                <label for="question1">
-                    <h5 class="m-dropdown__contentTitle">Popular articles</h5>
-                    <img src="./assets/icons/down-arrow.svg" alt="" class="m-dropdown__arrow" alt="">
-                </label>
-                <div class="m-dropdown__content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis cupiditate fuga quibusdam.
-                </div>
-            </li>
-            <li class="m-dropdown__question">
-                <input type="checkbox" id="question2">
-                <label for="question2">
-                    <h5 class="m-dropdown__contentTitle">Fix problems & request removals</h5>
-                    <img src="./assets/icons/down-arrow.svg" alt="" class="m-dropdown__arrow" alt="">
-                </label>
-                <div class="m-dropdown__content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis cupiditate fuga quibusdam.
-                </div>
-            </li>
-            <li class="m-dropdown__question">
-                <input type="checkbox" id="question3">
-                <label for="question3">
-                    <h5 class="m-dropdown__contentTitle">Browse the web</h5>
-                    <img src="./assets/icons/down-arrow.svg" alt="" class="m-dropdown__arrow" alt="">
-                </label>
-                <div class="m-dropdown__content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis cupiditate fuga quibusdam.
-                </div>
-            </li>
-            <li class="m-dropdown__question">
-                <input type="checkbox" id="question4">
-                <label for="question4">
-                    <h5 class="m-dropdown__contentTitle">Browse the web</h5>
-                    <img src="./assets/icons/down-arrow.svg" alt="" class="m-dropdown__arrow" alt="">
-                </label>
-                <div class="m-dropdown__content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis cupiditate fuga quibusdam.
-                </div>
-            </li>
-        </ul>
-    </div>
+    <section class="m-wrapper">
+        <div class="o-accordion">
+            <h3 class="m-dropdown__title">How can we help you?</h3>
+            <form action="" class="m-dropdown__search">
+                <img src="./assets/icons/search.svg" alt="" class="m-dropdown__searchIcon">
+                <input type="text" placeholder="Describe your issue" class="m-dropdown__searchInput">
+            </form>
+            <ul class="m-dropdown__container">
+                <li class="m-dropdown__question">
+                    <input type="checkbox" id="question1">
+                    <label for="question1">
+                        <h5 class="m-dropdown__contentTitle">Popular articles</h5>
+                        <img src="./assets/icons/down-arrow.svg" alt="" class="m-dropdown__arrow" alt="">
+                    </label>
+                    <div class="m-dropdown__content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis cupiditate fuga quibusdam.
+                    </div>
+                </li>
+                <li class="m-dropdown__question">
+                    <input type="checkbox" id="question2">
+                    <label for="question2">
+                        <h5 class="m-dropdown__contentTitle">Fix problems & request removals</h5>
+                        <img src="./assets/icons/down-arrow.svg" alt="" class="m-dropdown__arrow" alt="">
+                    </label>
+                    <div class="m-dropdown__content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis cupiditate fuga quibusdam.
+                    </div>
+                </li>
+                <li class="m-dropdown__question">
+                    <input type="checkbox" id="question3">
+                    <label for="question3">
+                        <h5 class="m-dropdown__contentTitle">Browse the web</h5>
+                        <img src="./assets/icons/down-arrow.svg" alt="" class="m-dropdown__arrow" alt="">
+                    </label>
+                    <div class="m-dropdown__content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis cupiditate fuga quibusdam.
+                    </div>
+                </li>
+                <li class="m-dropdown__question">
+                    <input type="checkbox" id="question4">
+                    <label for="question4">
+                        <h5 class="m-dropdown__contentTitle">Search on your phone or tablet</h5>
+                        <img src="./assets/icons/down-arrow.svg" alt="" class="m-dropdown__arrow" alt="">
+                    </label>
+                    <div class="m-dropdown__content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis cupiditate fuga quibusdam.
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="o-articles">
+            <ul class="m-article__list">
+                <li class="m-article__item">
+                    <a href="#">
+                        <img src="./assets/img/article-1.png" alt="">
+                        <span>A friend indeed</span>
+                    </a>
+                </li>
+                <li class="m-article__item">
+                    <a href="#">
+                        <img src="./assets/img/article-2.png" alt="">
+                        <span>A friend indeed</span>
+                    </a>
+                </li>
+                <li class="m-article__item">
+                    <a href="#">
+                        <img src="./assets/img/article-3.png" alt="">
+                        <span>Return of the Ridleys</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
     <script src="./index.js"></script>
 </body>
 </html>
