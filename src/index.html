@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.scss">
-    <title>Accordion Content | Pure CSS</title>
+    <title>FAQ Page | Pure CSS</title>
 </head>
 <body>
+    <div class="o-accordion">
+        <h3 class="m-dropdown__title">How can we help you?</h3>
+        <form action="" class="m-dropdown__search">
+            <img src="./assets/icons/search.svg" alt="" class="m-dropdown__searchIcon">
+            <input type="text" placeholder="Describe your issue" class="m-dropdown__searchInput">
+        </form>
+        <ul class="m-dropdown__container">
+            <li class="m-dropdown__question">
+                <input type="checkbox" id="question1">
+                <label for="question1">
+                    <h5 class="m-dropdown__contentTitle">Popular articles</h5>
+                    <img src="./assets/icons/down-arrow.svg" alt="" class="m-dropdown__arrow" alt="">
+                </label>
+                <div class="m-dropdown__content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis cupiditate fuga quibusdam.
+                </div>
+            </li>
+            <li class="m-dropdown__question">
+                <input type="checkbox" id="question2">
+                <label for="question2">
+                    <h5 class="m-dropdown__contentTitle">Fix problems & request removals</h5>
+                    <img src="./assets/icons/down-arrow.svg" alt="" class="m-dropdown__arrow" alt="">
+                </label>
+                <div class="m-dropdown__content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis cupiditate fuga quibusdam.
+                </div>
+            </li>
+            <li class="m-dropdown__question">
+                <input type="checkbox" id="question3">
+                <label for="question3">
+                    <h5 class="m-dropdown__contentTitle">Browse the web</h5>
+                    <img src="./assets/icons/down-arrow.svg" alt="" class="m-dropdown__arrow" alt="">
+                </label>
+                <div class="m-dropdown__content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis cupiditate fuga quibusdam.
+                </div>
+            </li>
+            <li class="m-dropdown__question">
+                <input type="checkbox" id="question4">
+                <label for="question4">
+                    <h5 class="m-dropdown__contentTitle">Browse the web</h5>
+                    <img src="./assets/icons/down-arrow.svg" alt="" class="m-dropdown__arrow" alt="">
+                </label>
+                <div class="m-dropdown__content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis cupiditate fuga quibusdam.
+                </div>
+            </li>
+        </ul>
+    </div>
     <script src="./index.js"></script>
 </body>
 </html>
